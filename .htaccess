@@ -1,0 +1,9 @@
+#
+Options -indexes +ExecCGI
+
+RewriteEngine On
+#RewriteBase /lg2/
+
+RewriteRule ^lg.cgi$ lg.cgi [L]
+
+RewriteRule .* index.php [L]
